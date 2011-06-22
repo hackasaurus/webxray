@@ -1,37 +1,38 @@
 jQuery.localization.extend("en-US", "hud-overlay", {
-  "default-html": "<span>Web X-Ray Goggles activated! Press ESC to deactivate.</span>",
-  "element": "element",
-  "with": "with",
+  "default-html": "<span>Gafas de Rayos X activadas! Haz clic en ESC para desactivarlas.</span>",
+  "element": "elemento",
+  "with": "con",
   "id": "id",
-  "and": "and",
-  "class": "class",
-  "pointing-at": "pointing at",
-  "focused-intro": "You are on a",
-  "ancestor-intro": "It is inside a"
+  "and": "y",
+  "class": "clase",
+  "pointing-at": "apuntando a",
+  "focused-intro": "Estás en un",
+  "ancestor-intro": "Está dentro de"
 });
 
 jQuery.localization.extend("en-US", "input", {
-  "link-click-blocked": 'If you would like to follow that link, please deactivate the goggles first by pressing ESC.'
+  "link-click-blocked": 'Si quieres seguir ese link, desactiva antes las gafas presionando ESC.'
 });
 
 jQuery.localization.extend("en-US", "hack-recording-playback", {
-  "success": 'Hack rebusted!',
-  "failure": 'Hack rebusting failed. Perhaps the page changed since the hack was first busted?'
+  "success": 'Hackeado!',
+  "failure": 'Hackeo fallido. Tal vez la página cambió desde el primer hackeo?'
 });
 
 jQuery.localization.extend("en-US", "command-manager", {
-  "executed": "Busted",
-  "undid": 'Unbusted',
-  "redid": 'Rebusted',
-  "cannot-undo-html": '<span>Nothing left to undo!</span>',
-  "cannot-redo-html": '<span>Nothing left to redo!</span>'
+  "executed": "Ejecutado",
+  "undid": 'Sin hackear',
+  "redid": 'Hackeado',
+  "cannot-undo-html": '<span>No queda nada que desacer!</span>',
+  "cannot-redo-html": '<span>No queda nada que rehacer!</span>'
 });
 
 jQuery.localization.extend("en-US", "mix-master", {
-  "too-big-to-change": "Changing that would be a bad idea.",
-  "too-big-to-remix-html": "<div>That <code>&lt;${tagName}&gt;</code> element is too big for me to remix. Try selecting a smaller one!</div>",
-  "deletion": "deletion",
-  "replacement": "replacement",
-  "compose-a-replacement": "Compose A Replacement",
-  "replacement-instructions-html": "<span>When you're done composing your replacement HTML, press the <strong>Ok</strong> button.</span>"
+  "too-big-to-change": "Cambiar eso sería una mala idea.",
+  "too-big-to-remix-html": "<div>El elemento <code>&lt;${tagName}&gt;</code> es demasiado grande para remezclarlo. Selecciona uno más pequeño!</div>",
+  "deletion": "borrado",
+  "replacement": "substitución",
+  "compose-a-replacement": "Haz una substitución",
+  "replacement-instructions-html": "<span>Cuando hayas hecho tu substitución de HTML, presiona el botón <strong>Ok</strong>.</span>"
 });
+
